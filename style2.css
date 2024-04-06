@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* HEADER */ 
+
+
+body {
+    background-color: rgb(202, 178, 148);
+}
+.comeco1 {
+    background-color: rgb(134, 117, 95);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.comeco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ha {
+    width: 80%;
+    border-radius: 4%;
+    border: rgb(255, 255, 255) 5px solid;
+    margin-top: 2%;
+}
+.ttl {
+    padding: 5%;
+    color: white;
+
+}
+.p1 {
+    font-size: 89%;
+    padding-top: 1%;
+    color: white;
+}
+.voltar {
+    background-color: rgb(255, 255, 255);
+    color: rgb(134, 117, 95);
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10%;
+}
+
+/* MAIN */ 
+
+main {
+    background-color: rgb(134, 117, 95);
+    color: white;
+    border-radius: 5%;
+    margin-top: 10%;
+}
+.ttl2 {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+.p2 {
+    margin-left: 5%;
+    margin-right: 3%;
+}
+.p3 {
+    margin-left: 5%;
+    margin-right: 3%;
+    padding-bottom: 6%;
+}
+.box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3%;
+}
+.ttl3 {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    padding-top: 5%;
+    color: rgb(255, 175, 175);
+}
+.emi1 {
+    width: 50%;
+    border-radius: 4%;
+    border: solid white 2px;
+}
+.p4 {
+    display: flex;
+    justify-content: center;
+}
+.p5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+    font-size: 120%;
+}
+.box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2%;
+}
+.btn {
+    background-color: rgb(199, 136, 136);
+    padding: 4%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    border-radius: 12%;
+    color: rgb(88, 23, 150);
+}
